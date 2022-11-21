@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#00FFA6"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Asosiy_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:paddingBottom="50dp"
+        android:text=" Math Quiz"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/easy"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/easy"
+        android:gravity="center"
+        android:text="Easy"
+        android:textSize="70sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/hard"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/hard"
+        android:gravity="center"
+        android:text="Hard"
+        android:textSize="70sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/expert"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/expert"
+        android:gravity="center"
+        android:text="Expert"
+        android:textSize="70sp"
+        android:textStyle="italic|bold" />
+
+
+</LinearLayout>
